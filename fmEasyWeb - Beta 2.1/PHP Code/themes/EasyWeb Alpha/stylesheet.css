@@ -1,0 +1,506 @@
+/* -------------------------------------------------------------------------------- */
+/* Universal */
+/* -------------------------------------------------------------------------------- */
+
+body {
+	margin: 9px;	
+	background: #95AFBA;	
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	color: #555;	
+}
+
+
+/* Page Wrapper */
+#page-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+	width: 600px;
+	background-color: #ffffff;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #555;
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* Form Elements */
+/* -------------------------------------------------------------------------------- */
+
+.form-field-group {
+	margin-top: 12px;
+}
+
+.field-label {	
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000;
+	clear: right;
+	margin-bottom: 0px;
+}
+
+input {
+	font-size: 10pt;
+	padding: 3px;
+}
+
+x-input:focus {
+	background-color: #CCD9FF;
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* SiteShield */
+/* -------------------------------------------------------------------------------- */
+
+#page-wrapper-siteshield {
+	margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 420px;
+	background-color: #ffffff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 12px; 
+	box-shadow: 4px 4px 2px #888888;
+	padding-bottom: 48px;
+}
+
+#siteshield-header {
+	color: red;
+	font-size: 36pt;
+	text-align: left;
+}
+
+#siteshield-message-2 .ip-address {
+	background-color: yellow;
+	padding: 3px;
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* HTTPS Enforcer */
+/* -------------------------------------------------------------------------------- */
+
+#page-wrapper-https-enforcer {
+	margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 420px;
+	background-color: #ffffff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 12px; 
+	box-shadow: 4px 4px 2px #888888;
+	padding-bottom: 48px;
+}
+
+#https-enforcer-header {
+	color: red;
+	font-size: 36pt;
+	text-align: left;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+/* Error */
+/* -------------------------------------------------------------------------------- */
+
+#page-wrapper-error {
+	margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 420px;
+	background-color: #ffffff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 12px; 
+	box-shadow: 4px 4px 2px #888888;
+	padding-bottom: 48px;
+}
+
+#error-header {
+	color: red;
+	font-size: 36pt;
+	text-align: left;
+}
+
+#error-code {
+	font-weight: bold;
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* Login Form */
+/* -------------------------------------------------------------------------------- */
+
+#page-wrapper-login {
+	margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 420px;
+	background-color: #ffffff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 12px; 
+	box-shadow: 4px 4px 2px #888888;
+	padding-bottom: 48px;
+}
+
+#login-header {
+	color: #3F7CAC;
+	font-size: 36pt;
+	text-align: left;
+}
+/*
+#login-header span { display:none; } 
+#login-header:before {
+	content: "EasyWeb Demo";
+}
+*/
+
+#login-intro {
+	width: 300px;
+	background: #fff;
+	padding: 0px;
+	border: 0px solid #ccc;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000;
+}
+
+/*
+#login-intro span { display:none; } 
+#login-intro:before {
+	content: "Hello! Please login.";
+}
+*/
+
+
+#login-error {
+	color: red;
+}
+/*
+#login-error span { display:none; } 
+#login-error:before {
+	content: "The information that you provided is incorrect. Please try again.";
+}
+*/
+
+
+/* Account Name Field */
+#fm-account-name-label {
+	color: #999;
+	text-align: left;
+}
+/*
+#fm-account-name-label span { display:none; } 
+#fm-account-name-label:before {
+	content: "Account Name";
+}
+*/
+#fm-account-name {
+	width: 300px;
+	padding: 9px;
+}
+
+
+/* Password Field */
+#fm-password-label {
+	color: #999;
+	text-align: left;
+}
+/*
+#fm-password-label span { display:none; } 
+#fm-password-label:before {
+	content: "Password";
+}
+*/
+#fm-password {
+	width: 300px;
+	padding: 9px;
+}
+
+
+/* Login Submit Button */
+#fm-submit {
+	margin-top: 18px;
+	color: #999;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #D5E1A3;
+	padding: 9px;
+	width: 300px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-align: center;
+}
+/*
+#fm-submit span { display:none; } 
+#fm-submit:before {
+	content: "Continue...";
+}
+*/
+/*
+#fm-submit:active {
+    background-color: #fff;
+    color: #D5E1A3;  
+}
+#fm-submit:active:before {
+	content: "Authenticating...";
+}
+*/
+
+
+#logout-link-wrapper {
+    height: 50px;
+    display: table;
+    width: 100%;  
+}
+
+#logout-link-wrapper a {
+	color: #3F7CAC;
+	font-size: 10pt;  
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Logout Response */
+/* -------------------------------------------------------------------------------- */
+
+#page-wrapper-logout {
+	margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 320px;
+	background-color: #ffffff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 12px; 
+	box-shadow: 4px 4px 2px #888888;
+	padding-bottom: 48px;
+}
+
+#logout-header {
+	color: #3F7CAC;
+	font-size: 36pt;
+	text-align: left;
+}
+#logout-header span { display:none; } 
+#logout-header:before {
+	content: "EasyWeb";
+}
+
+#logout-message {
+	background: #fff;
+	padding: 0px;
+	border: 0px solid #ccc;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000;
+}
+#logout-message span { display:none; } 
+#logout-message:before {
+	content: "You have been logged out.";
+}
+
+/* Re-login message / button sim. */
+#re-login {
+	margin-top: 20px;
+	text-decoration: underline;
+}
+#re-login span { display:none; } 
+#re-login:before {
+	content: "Click here to login again.";
+}
+
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* List View */
+/* -------------------------------------------------------------------------------- */
+
+#page-wrapper-list {
+	margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 620px;
+	background-color: #ffffff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 12px; 
+	box-shadow: 4px 4px 2px #888888;
+	margin-bottom: 24px;
+}
+
+#list-header {
+	color: #3F7CAC;
+	font-size: 36pt;
+	text-align: left;
+}
+
+#list-intro {
+	margin-bottom: 24px;
+	font-size: 11pt;
+	color: #999;
+}
+
+#list-outro {
+	margin-bottom: 24px;
+	font-size: 11pt;
+	color: #999;
+}
+
+#list-overview {
+	margin-bottom: 24px;
+	font-size: 11pt;
+	color: #999;
+}
+
+#list-table {
+	font-family: verdana,arial,sans-serif;
+	font-size: 10pt;
+	color: #333333;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#list-table th {
+	border: 1px solid #ccc;
+	padding: 12px;
+	background-color: #E0E0E0;
+	text-align: left;
+	color: #999;
+	font-size: 10pt;
+	
+}
+
+#list-table td {
+	border: 1px solid #ccc;
+	vertical-align: top;
+	padding: 12px;
+	font-size: 10pt;
+}
+
+.list-table-tr-even {
+	background-color: #eeeeee;
+}
+
+.list-table-tr-odd:hover, .list-table-tr-even:hover {
+	background-color: #8fb7d6;
+	color: #fff;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+#page-navigator {
+    height: 50px;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+#page-navigator-prev {	
+    vertical-align:middle;
+    display: table-cell;
+    width: 49%;
+    text-align: right;
+}
+
+#page-navigator-gutter {
+    vertical-align:middle;
+    display: table-cell;
+    width: 2%;
+}
+
+#page-navigator-next {
+    vertical-align:middle;
+    display: table-cell;
+    width: 49%;
+}
+
+#page-navigator a {
+	color: #3F7CAC;
+	font-size: 10pt;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+/* Form View */
+/* -------------------------------------------------------------------------------- */
+
+#page-wrapper-form {
+	margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 520px;
+	background-color: #ffffff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 12px; 
+	box-shadow: 4px 4px 2px #888888;
+	margin-bottom: 24px;
+}
+
+#form-header {
+	color: #3F7CAC;
+	font-size: 36pt;
+	text-align: left;
+}
+
+.form-field-wrapper {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.form-field-label {
+	font-weight: normal;
+}
+
+.form-field-intro {
+	color: gray;
+}
+
+.form-field-value {
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    font-size: 14pt;
+    padding: 9px;
+    width: 400px;
+    color: #000;
+}
+
+.image-container {
+	max-width: 100%;
+}
+
+#back-button-div { 
+    text-align: center;
+}
+
+#back-button {
+	color: #000;
+	font-size: 10pt;
+	font-weight: normal;
+	background-color: #D5E1A3;
+	padding: 9px;
+	width: 300px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-align: center;
+    margin: auto 1.5em; 
+    display: inline-block;
+}
+
+
+

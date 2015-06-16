@@ -1,0 +1,55 @@
+*** FMEasyWeb Demo Database ***
+
+FMEasyWeb is distributed as a PHP Web application and with a single FileMaker Pro demo database, both of which you will find in this zip file.
+
+
+*** FileMaker Accounts ***
+
+There are three accounts setup in the demo database:
+
+Account Name: Admin
+Password: 3k7ErtUkg>RvmYAGjo7PmQpxMHXusK7B8$joCiAL]DfPa{rFp/
+Privilege Set: Full Access
+Note: The password includes the trailing slash ("/").
+
+Account Name: fmEasyWeb
+Password: NdKjJawxJ$oAAc4oD6Arf7+urQx#d.ETBiDrTT9ajrTjM2hQQ{
+Privilege Set: fmeasyweb
+Note: The password includes the trailing bracket ("{").
+
+Account Name: user
+Password: fmeasyweb
+Privilege Set: fmeasyweb
+
+
+*** Sample Data ***
+
+The data that is pre-loaded into the demo database is fictitious!
+
+
+*** Using FMEasyWeb ***
+
+For guidance on installing and configuring the demo application, as well as for using EasyWeb with your own solution, please visit the FMEasyWeb Web site:
+http://fmeasyweb.com
+
+
+*** Technical Support ***
+
+For technical support, please refer to the FMEasyWeb Web site: 
+http://fmeasyweb.com
+
+Please note: I cannot provide "free" technical support (via email, Twitter, etc). However, I will occasionally be checking in to the support forum, located here:
+http://fmforums.com/forums/forum/221-fm-easyweb/
+
+
+*** Thanks! ***
+
+Special thanks to Hal Gumbert of Camp Software ( Twitter: @HalGumbert ) and Joe Fino ( Twitter: @joefino ) for their help and guidance with FMEasyWeb. Thanks, guys!
+
+And thank you for your interest in FMEasyWeb.
+
+Tim Dietrich
+Web: http://timdietrich.me
+Twitter: @tdietrich
+
+

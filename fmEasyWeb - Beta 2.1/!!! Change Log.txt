@@ -1,0 +1,30 @@
+FMEasyWeb - Change Log
+
+###
+
+Alpha 1 (Posted 2015-03-12)
+• Internal alpha release.
+• Known issues w/ portals, some file uploads, etc.
+• Heavy code borrowing from FMWebFrame.
+
+###
+
+Beta 1 (2015-04-01)
+• Private beta.
+• Used for initial public demo.
+• Supports list / form views in read-only mode.
+• Supports form view edit mode and file uploads via FilePicker.
+• Refactored and merged FMWebFrame modules.
+
+###
+
+Beta 2 (2015-05-19)
+• Private beta.
+• Complete refactoring and removal of edit support.
+
+###
+
+Beta 2.1 (2015-05-31)
+• Initial public beta.
+• No support for portals.
+• Container support for images only.
